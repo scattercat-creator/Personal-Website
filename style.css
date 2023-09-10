@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    
+}
+html {
+    margin: 0;
+}
+body {
+    background-color: RGB(238, 142, 166);
+    margin: 0;
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 100px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    top: 0;
+    padding: 5px;
+    
+}
+
+li:hover {
+    border-bottom-style: solid;
+}
+h2 {
+    margin-left: 10%;
+}
+
+/* classes */
+
+.container {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -75%);
+    left: 10%;
+}
+
+.nav {
+    box-sizing: border-box;
+    text-decoration-style: none;
+    position: sticky;
+    height: 50px;
+    width: 100vw;
+    background-color: #FAC898;
+    padding: 10px;
+    text-align: right;
+    border-bottom-style: solid;
+    max-width: 100%;
+}
+
+.main {
+    position:relative;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    
+}
+
+.project {
+    text-align: left;
+    
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #FAC898;
+    border: 1px solid;
+    margin: 10px;
+}
+
+.project-item {
+    text-align: center;
+    
+    padding: 20px;
+    border: 1px solid;
+   
+}
